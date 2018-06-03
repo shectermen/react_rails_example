@@ -1,3 +1,9 @@
 plugins:
-  postcss-import: {}
-  postcss-cssnext: {}
+  postcss-smart-import: {}
+  precss: {}
+  autoprefixer: {}
+  postcss-assets: {
+    loadPaths: ['images', '../app/images/'],
+    basePath: 'public',
+    cachebuster: true,
+  }

@@ -1,0 +1,1 @@
+json.array! @records, :id, :title, :date, :amount, :created_at, :updated_at

@@ -9,6 +9,7 @@
     "react-dom": "^16.4.0"
   },
   "devDependencies": {
+    "postcss-assets": "^5.0.0",
     "webpack-dev-server": "2.11.2"
   }
 }
