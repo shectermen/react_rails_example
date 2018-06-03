@@ -16,10 +16,10 @@ const Records = props => (
   props.collection.map(function(item, index) {
     return (
       <tr key={index}>
-        <td className="news__id">{item.id}</td>
-        <td className="news__title">{item.title}</td>
-        <td className="news__data">{item.date}</td>
-        <td className="news__amount">{item.amount}</td>
+        <td className="records__id">{item.id}</td>
+        <td className="records__title">{item.title}</td>
+        <td className="records__data">{item.date}</td>
+        <td className="records__amount">{item.amount}</td>
       </tr>
     )
   })
